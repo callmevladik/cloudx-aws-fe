@@ -74,3 +74,14 @@ Remove an entire stack configured in `serverless.yml` via CloudFormation.
 
 * [S3 Link](http://cloudx-aws-bucket.s3-website-eu-west-1.amazonaws.com/)
 * [Cloudfront Link](https://d1xeq3rj5e02o4.cloudfront.net/)
+
+
+### **Task 3**
+
+Serverless
+
+* GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products
+* GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products/available
+* GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products/{id}
+* GET - https://cdzx5q1oi3.execute-api.eu-west-1.amazonaws.com/dev/swagger
+* GET - https://cdzx5q1oi3.execute-api.eu-west-1.amazonaws.com/dev/swagger.json
