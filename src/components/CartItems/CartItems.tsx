@@ -27,8 +27,8 @@ export default function CartItems({ items, isEditable }: CartItemsProps) {
           >
             {isEditable && <AddProductToCart product={cartItem.product} />}
             <ListItemText
-              primary={cartItem.product.title}
-              secondary={cartItem.product.description}
+              primary={cartItem.product.name}
+              secondary={cartItem.product.platforms}
             />
             <Typography variant="body2">
               {formatAsPrice(cartItem.product.price)} x {cartItem.count} ={" "}
