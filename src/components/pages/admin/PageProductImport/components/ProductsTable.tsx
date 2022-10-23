@@ -35,9 +35,9 @@ export default function ProductsTable() {
           {data.map((product) => (
             <TableRow key={product.id}>
               <TableCell component="th" scope="row">
-                {product.title}
+                {product.name}
               </TableCell>
-              <TableCell align="right">{product.description}</TableCell>
+              <TableCell align="right">{product.platforms}</TableCell>
               <TableCell align="right">
                 {formatAsPrice(product.price)}
               </TableCell>
@@ -56,7 +56,7 @@ export default function ProductsTable() {
                   color="secondary"
                   onClick={() => {
                     if (product.id) {
-                      deleteAvailableProduct(product.id, {
+                      deleteAvailableProduct(String(product.id), {
                         onSuccess: invalidateAvailableProducts,
                       });
                     }
