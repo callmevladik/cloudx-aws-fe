@@ -14,27 +14,29 @@ test("Renders products list", async () => {
   const products: AvailableProduct[] = [
     {
       id: "1",
-      name: 'Grand Theft Auto V',
+      title: "Grand Theft Auto V",
       rating: 4.47,
-      genres: 'Action, Adventure',
+      genres: "Action, Adventure",
       price: 479,
       count: 6,
       platforms:
-        'PC, Xbox Series S/X, PlayStation 4, PlayStation 3, Xbox 360, Xbox One, PlayStation 5',
-      released: '2013-09-17',
-      image: 'https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg',
+        "PC, Xbox Series S/X, PlayStation 4, PlayStation 3, Xbox 360, Xbox One, PlayStation 5",
+      released: "2013-09-17",
+      image:
+        "https://media.rawg.io/media/games/456/456dea5e1c7e3cd07060c14e96612001.jpg",
     },
     {
       id: "2",
-      name: 'The Witcher 3: Wild Hunt',
+      title: "The Witcher 3: Wild Hunt",
       rating: 4.67,
-      genres: 'Action, Adventure, RPG',
+      genres: "Action, Adventure, RPG",
       price: 167,
       count: 0,
       platforms:
-        'Nintendo Switch, PlayStation 5, Xbox Series S/X, Xbox One, PC, PlayStation 4',
-      released: '2015-05-18',
-      image: 'https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg',
+        "Nintendo Switch, PlayStation 5, Xbox Series S/X, Xbox One, PC, PlayStation 4",
+      released: "2015-05-18",
+      image:
+        "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
     },
   ];
   server.use(
@@ -57,7 +59,7 @@ test("Renders products list", async () => {
 
   await waitForElementToBeRemoved(() => screen.queryByText(/Loading/));
   products.forEach((product) => {
-    expect(screen.getByText(product.name)).toBeInTheDocument();
+    expect(screen.getByText(product.title)).toBeInTheDocument();
     expect(screen.getByText(formatAsPrice(product.price))).toBeInTheDocument();
   });
 });
