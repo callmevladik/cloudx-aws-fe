@@ -83,5 +83,7 @@ Serverless
 * GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products
 * GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products/available
 * GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products/{id}
+* GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products/fill
+* POST - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products
 * GET - https://cdzx5q1oi3.execute-api.eu-west-1.amazonaws.com/dev/swagger
 * GET - https://cdzx5q1oi3.execute-api.eu-west-1.amazonaws.com/dev/swagger.json
