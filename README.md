@@ -73,17 +73,18 @@ Remove an entire stack configured in `serverless.yml` via CloudFormation.
 ### **Task 2**
 
 * [S3 Link](http://cloudx-aws-bucket.s3-website-eu-west-1.amazonaws.com/)
-* [Cloudfront Link](https://d1xeq3rj5e02o4.cloudfront.net/)
+* [Cloudfront Link](https://d1xex6jegcj1cr.cloudfront.net/)
 
 
 ### **Task 3**
 
 Serverless
 
-* GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products
-* GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products/available
-* GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products/{id}
-* GET - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products/fill
-* POST - https://2ou81mm4oe.execute-api.eu-west-1.amazonaws.com/dev/products
-* GET - https://cdzx5q1oi3.execute-api.eu-west-1.amazonaws.com/dev/swagger
-* GET - https://cdzx5q1oi3.execute-api.eu-west-1.amazonaws.com/dev/swagger.json
+* GET - https://zimf36kbj8.execute-api.eu-west-1.amazonaws.com/dev/products
+* GET - https://zimf36kbj8.execute-api.eu-west-1.amazonaws.com/dev/products/available
+* GET - https://zimf36kbj8.execute-api.eu-west-1.amazonaws.com/dev/products/{id}
+* GET - https://zimf36kbj8.execute-api.eu-west-1.amazonaws.com/dev/products/fill
+* POST - https://zimf36kbj8.execute-api.eu-west-1.amazonaws.com/dev/products
+* GET - https://chr9mx6l0f.execute-api.eu-west-1.amazonaws.com/dev/swagger
+* GET - https://chr9mx6l0f.execute-api.eu-west-1.amazonaws.com/dev/swagger.json
+
